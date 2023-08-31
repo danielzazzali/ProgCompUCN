@@ -3,8 +3,8 @@
 ## Contenido
 1. Introduciendo Ubuntu
 2. Manos a la Obra con la Terminal
-3. Compilando y Corriendo Código C++
-4. Compilando y Corriendo Código Python
+3. Compilando y ejecutando Código C++
+4. Compilando y ejecutando Código Python
 
 ## 1. Introduciendo Ubuntu
 
@@ -26,7 +26,7 @@ La terminal es una herramienta poderosa que permite al usuario interactuar con e
 - `mkdir`: Crea un nuevo directorio.
 - `touch`: Crea un nuevo archivo.
 
-## 3. Compilando y Corriendo Código C++
+## 3. Compilando y ejecutando Código C++
 
 Antes de compilar código C++, necesitamos verificar que el compilador está instalado. Si no, lo instalamos usando el comando `sudo apt-get install g++`.
 
@@ -40,13 +40,13 @@ int main() {
 }
 ```
 
-**Compilando y Corriendo el Archivo C++**
+**Compilando y ejecutando el Archivo C++**
 1. `g++ hello_world.cpp -o hello_world` (compila el código)
 2. `./hello_world` (ejecuta el programa)
 
 Verás `¡Hola, mundo de C++!` en la terminal.
 
-## 4. Compilando y Corriendo Código Python
+## 4. Compilando y ejecutando Código Python
 
 Python usualmente viene preinstalado en Ubuntu. Puedes confirmar esto con el comando `python3 --version`.
 
@@ -55,7 +55,7 @@ Python usualmente viene preinstalado en Ubuntu. Puedes confirmar esto con el com
 print("¡Hola, mundo de Python!")
 ```
 
-**Corriendo el Archivo Python**
+**Ejecutando el Archivo Python**
 1. `python3 hello_world.py`
 
 Verás `¡Hola, mundo de Python!` en la terminal.
