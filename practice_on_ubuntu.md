@@ -1,3 +1,67 @@
+# Guía para Principiantes en Ubuntu y Compilación de Código C++ y Python
+
+## Contenido
+1. Introduciendo Ubuntu
+2. Manos a la Obra con la Terminal
+3. Compilando y Corriendo Código C++
+4. Compilando y Corriendo Código Python
+
+## 1. Introduciendo Ubuntu
+
+Ubuntu es uno de los sistemas operativos basados en Linux más populares. Con una interfaz de usuario pulida y fácil de usar, es una excelente opción para principiantes.
+
+### Aspectos Básicos de la Interfaz de Ubuntu
+- **Escritorio:** Este es el espacio de trabajo principal.
+- **Barra de Tareas:** Está ubicada en la parte superior y muestra apps abiertas, el calendario, ajustes del sistema, y el menú de apagado/reinicio.
+- **Dock:** Ubicado a la izquierda, contiene accesos directos a las aplicaciones.
+
+## 2. Manos a la Obra con la Terminal
+
+La terminal es una herramienta poderosa que permite al usuario interactuar con el sistema operativo mediante comandos de texto.
+
+**Comandos Básicos de la Terminal**
+- `cd`: Cambia el directorio actual.
+- `ls`: Lista todos los archivos y directorios en el directorio actual.
+- `pwd`: Muestra el directorio actual.
+- `mkdir`: Crea un nuevo directorio.
+- `touch`: Crea un nuevo archivo.
+
+## 3. Compilando y Corriendo Código C++
+
+Antes de compilar código C++, necesitamos verificar que el compilador está instalado. Si no, lo instalamos usando el comando `sudo apt-get install g++`.
+
+**Ejemplo de Archivo C++ (hello_world.cpp)**
+```cpp
+#include <iostream>
+
+int main() {
+    std::cout << "¡Hola, mundo de C++!" << std::endl;
+    return 0;
+}
+```
+
+**Compilando y Corriendo el Archivo C++**
+1. `g++ hello_world.cpp -o hello_world` (compila el código)
+2. `./hello_world` (ejecuta el programa)
+
+Verás `¡Hola, mundo de C++!` en la terminal.
+
+## 4. Compilando y Corriendo Código Python
+
+Python usualmente viene preinstalado en Ubuntu. Puedes confirmar esto con el comando `python3 --version`.
+
+**Ejemplo de Archivo Python (hello_world.py)**
+```python
+print("¡Hola, mundo de Python!")
+```
+
+**Corriendo el Archivo Python**
+1. `python3 hello_world.py`
+
+Verás `¡Hola, mundo de Python!` en la terminal.
+
+---
+
 ## Cómo Configurar Ubuntu en una Máquina Virtual con VirtualBox
  
 A continuación, se detallan los pasos para instalar Ubuntu en una máquina virtual con la función de instalación desatendida desactivada, usando VirtualBox:
