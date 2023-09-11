@@ -2,7 +2,9 @@
 
 ## ¿Qué es la Biblioteca Estándar de C++?
 
-La Biblioteca Estándar de C++ (STL) es una colección de clases y funciones diseñada para hacer que el uso de las estructuras de datos y los algoritmos comunes sea más fácil. Incluye cuatro componentes: algoritmos, contenedores, funciones y iteradores.
+La Biblioteca Estándar de C++ (STL) es una colección de clases y funciones diseñada para hacer que el uso de las
+estructuras de datos y los algoritmos comunes sea más fácil. Incluye cuatro componentes: algoritmos, contenedores,
+funciones e iteradores.
 
 - **Algoritmos**: Operaciones aplicables a rangos de elementos.
 - **Contenedores**: Objetos que almacenan datos. Incluye `vector`, `list`, `deque`, `set`, `map` y más.
